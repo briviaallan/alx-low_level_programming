@@ -1,7 +1,13 @@
 #include <stdio.h>
 
+/**
+ * main - used to print the sizes of the data types.
+ * Return: a zero shows success, a non zero signifies error.
+ */
 int main(void)
+
 {
+
 	char x;
 	int n;
 	long int d;
@@ -13,6 +19,6 @@ int main(void)
 	printf("Size of a long int: %i byte(s)\n", sizeof(d));
 	printf("Size of a long long int: %i byte(s)\n", sizeof(l));
 	printf("Size of a float: %i byte(s)\n", sizeof(f));
-	return(0);
+	return (0);
 
 }
