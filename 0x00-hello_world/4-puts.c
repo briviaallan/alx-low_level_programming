@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - to print output
- * return: 0 shows success non zeroshows error
+ * return: zero shows success non zero shows error
  */
 
 int main(void)
