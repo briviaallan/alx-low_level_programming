@@ -3,11 +3,12 @@
 #include <stdio.h>
 
 /**
- * main - prints if else statement
+ * main - prints out put of if else
  * Return: 0 shows success
- */
+ **/
 
 int main(void)
+
 {
 	int n;
 
@@ -19,11 +20,11 @@ int main(void)
 	}
 	else if (n == 0)
 	{
-		printf("&d is zero\n", n);
+		printf("%d is zero\n", n);
 	}
 	else
 	{
-		prinf("%d is negative\n", n);
+		printf("%d is negative\n", n);
 	}
-	return (o);
+	return (0);
 }
