@@ -1,0 +1,1 @@
+frunctions anf nested loops
