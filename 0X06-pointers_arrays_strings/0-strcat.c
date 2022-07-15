@@ -1,4 +1,6 @@
 #include "main.h"
+#include <string.h>
+#include <stdio.h>
 /**
  * _strcat -> this is a function strcat
  * @dest: destination
@@ -12,11 +14,11 @@ char *_strcat(char *dest, char *src)
     while (dest[len])
         len++;
 
-    for (i = 0; src[i] != '\0'; i++)
+    for (i = 0; src[i] != '0'; i++)
     {
         dest[len] = src[i];
         len += 1;
     }
     dest[len] = '\0';
-    rerturn (dest)
+    rerturn (dest);
 }
